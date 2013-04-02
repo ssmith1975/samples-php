@@ -1,0 +1,60 @@
+/* fixed layout */
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	border-spacing: 0px;
+}
+
+#content .container-inner {
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 0;					
+}
+			
+
+#content .container-inner #main {
+	width: 720px;			
+	height: 100%;
+	border: none;
+
+	
+	display: table-cell;
+	border-collapse: collapse;	
+	border-spacing: 0;		
+	table-layout: fixed;
+}
+
+#content .container-inner #sidebar {
+	width: 210px;
+	height: 100%;
+	border: none;
+
+	border-collapse: collapse;	
+	border-spacing: 0;		
+	table-layout: fixed;
+}
+
+	#content .container-inner #sidebar .block,
+	#content .container-inner #sidebar #nav
+	 {
+		padding: 10px;
+	}				
+
+
+
+#content .container-inner .table-gutter {
+	
+	display: table-cell;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 10px;
+}
+			
+
+#content .container-inner .content-inner {
+	width: auto;
+	height: 100%;
+	padding: 10px;
+}

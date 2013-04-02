@@ -1,0 +1,370 @@
+/**
+ * 	Color Gude
+  * Light Green: FCFFF5,
+  * Medium Green: D1DBBD,
+  * Light Teal: 91AA9D,
+  * Medium Teal: 3E606F,
+  * Dark Teal: 193441	
+ */	
+ 	
+/* Reset */
+html, body, div, p, ul, ol, li, strong, em, h1, h2, h3, blockquote, pre, code,
+strong,  em, blockquote, pre {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	outline: 0;
+	
+	vertical-align: baseline;
+	background: transparent;
+	border-image-width: 0 0 0 0;	
+}
+ 
+ 
+
+
+/* Columns */
+/*.column {
+	display: block;
+	float: left;
+	margin:10px;
+}
+
+										
+
+*/
+
+
+
+
+		
+/* Styles  */
+
+
+body {
+	color: #fff;
+	font: 1em/1.5em Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+	margin-bottom: .8em;
+}
+p {
+	margin-bottom: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #040;
+}
+
+a:hover {
+	
+}
+
+#wrapper {
+	width: 100%;
+	background-color: #FCFFF5;
+	
+}			
+
+#header {
+	background-color: #91AA9D;
+	color: #ffffff;
+	height: 100%;
+	position: relative;
+}	
+	#header .container {
+		height: 100%;
+	}
+	#header #pageTitle {
+		font-size: 1.8em;
+		font-family: "Times New Roman", Times, serif;
+		
+	}
+	#header #pageTitle a {
+		color: #ffffff;
+	}
+	#header #loginStatus {
+		display: block;
+		float: right;
+	}
+	#header #loginStatus a {
+		color: #fff;
+	}
+
+#top-nav {
+	border-bottom: 1px solid #D1DBBD;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 1em;
+	
+}
+	#top-nav ul.horizontal-menu {
+		margin: 0px;
+		padding: 0px;
+		float: right;
+	}
+	
+	#top-nav ul.horizontal-menu li {
+		display: inline-block;
+	}
+	
+	#top-nav ul.horizontal-menu li a {
+		/*border: 1px solid #888;*/
+		background-color: #91AA9D;
+		color: #EBEFE2;
+		
+		font-weight: bold;
+		margin: 0px;
+		padding: .2em 1em;
+		display: block;
+		
+	}
+	
+	#top-nav ul.horizontal-menu li a:hover {
+		
+		color: #FCFFF5;
+		background-color: #193441;
+	} 
+
+#content {
+	
+}
+
+	#content  .container{
+		/*background-color: #b9dbe1;*/
+		color: #444;	
+	}	
+		
+		#content .container-inner {
+			border-image-width: 0px;
+			border: none;
+			border-image-width: 0 0 0 0;
+			width: 100%;
+
+		}
+		
+		
+		#content .container-inner #main {
+			background-color: #ffffff;
+			color:  #3E606F;
+			border-image-width: 0px;
+		}
+			#content .container-inner #main h1{
+				color: #91AA9D;
+			}
+			
+			#content .container-inner #main .message {
+				padding: 10px;
+				border: 1px solid #91AA9D;
+				background-color: #EBEFE2;
+				color: #880000;
+				font-size: 12px;
+			}
+
+			#content .container-inner  #main ul.page{
+				
+				padding-bottom: 10px;
+			}
+
+			#content .container-inner  #main ul.page  li{
+				margin-left: 50px;
+				padding-bottom: 10px;
+			}
+
+			#content .container-inner  #main ul.page  li a {
+				text-decoration: underline;
+			}
+					
+		#content .container-inner #main  .error {
+			color: #c00;
+			font-size: .8em;
+		}
+		#content .container-inner #sidebar {
+			
+			border-image-width: 0px;
+			/*background-color: #193441;*/
+			color: #ccc;
+		}
+			#content .container-inner #sidebar #h2 {
+				color: #888;
+			}	
+			
+			
+			#content .container-inner #sidebar #nav {
+				background-color: #EBEFE2;
+				color: #91AA9D;
+				font-size: .8em;
+				line-height: 1.2em;
+				margin-bottom: 1em;
+			}
+			
+				#content .container-inner  #sidebar #nav h3 {
+					color: #888888;
+					margin-bottom: 1em;
+				}
+				
+				#content .container-inner  #sidebar #nav ul {
+					margin: 0 0 1.2em 0;
+					list-style-type: none;
+				}
+				
+				#content .container-inner  #sidebar #nav ul li {
+					padding: 5px 0px;
+				}
+				
+				#content .container-inner  #sidebar #nav ul li a.selected {
+					font-weight: bold;
+					color: red;
+				}
+				
+				#content .container-inner  #sidebar #nav ul.page  li{
+					margin-left: 10px;
+				}
+				
+				#content .container-inner  #sidebar #nav ul.page {
+					margin-bottom: 0px;
+				}
+								
+				#content .container-inner  #sidebar #nav ul.page li  a.selected_page {
+					font-weight: bold;
+					color: blue;
+				}
+				
+				
+				#content .container-inner #sidebar #nav  ul.admin_list {
+					
+				}
+
+				#content .container-inner #sidebar #nav ul.admin_list li.add_16 {
+					background: transparent url("../_images/add_16x16.png") 0 4px no-repeat;
+					padding-left: 20px;
+				}
+				
+				#content .container-inner #sidebar #nav ul.admin_list li.edit_16 {
+					background: transparent url("../_images/edit_16x16.png") 0 4px no-repeat;
+					padding-left: 20px;
+				}
+								
+				#content .container-inner #sidebar #nav ul.admin_list li.delete_16 {
+					background: transparent url("../_images/delete_16x16.png") 0 4px no-repeat;
+					padding-left: 20px;
+				}				 
+							
+			#content .container-inner #sidebar  .block {
+				background-color: #91AA9D;
+				color: #FCFFF5;
+				font-size: .8em;
+				line-height: 1.2em;
+				
+			}
+				#content .container-inner  #sidebar .block h3 {
+					color: #D1DBBD;
+					margin-bottom: 1em;
+				}
+				
+			 .block + .block {
+				margin-top: 1em;
+			}
+
+#footer {
+	background-color: #193441;
+	color: #FCFFF5;
+	font-size: .8em;
+	line-height: 1.2em;
+}
+
+.container {
+	/*border: 1px solid #fff;*/
+}
+
+
+.table-container {
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+.table-cell {
+		display: table-cell;
+		border-collapse: collapse;	
+		border-spacing: 0;		
+		table-layout: fixed;
+}
+
+.table-gutter {
+	background-color: #FCFFF5;
+
+}
+
+#sidebar .table-gutter {
+	background-color: transparent;
+
+}
+
+
+.form-table, .list-table {
+	font-family: ariel, helvetica, sans-serif;
+	font-size: 14px;
+	vertical-align: top;
+	border-top: 5px solid #EBEFE2;
+	padding: 10px 0px;	
+	width: 100%;
+}
+
+.form-table tr:last-child {
+	background-color: #EBEFE2;
+}
+
+.form-table td {
+	padding: 10px;
+	vertical-align: top;
+}
+.form-table td:first-child {
+	text-align: right;
+}
+
+
+.form-table label {
+	font-weight: bold;
+	
+}
+
+.form-table .required {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.list-table tr th {
+	background-color: #3E606F;
+	color: #FCFFF5;
+}
+
+.list-table tr td{
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+}
+.list-table tr:nth-child(odd){
+	background-color:  #EBEFE2;
+}
+.list-table tr .action {
+	width: 100px;
+	text-align: center;
+}
+
+
+.add_user_link {
+	
+	text-align: right;
+	font-weight: bold;
+}
+
+.add_16 {
+	
+	background: transparent url("../_images/add_16x16.png") 0 0px no-repeat;
+	padding-left: 20px;
+}
+
+.clear {
+	clear: both;
+}
