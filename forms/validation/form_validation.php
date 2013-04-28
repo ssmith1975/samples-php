@@ -3,7 +3,7 @@
 	if ($_POST['submit'] != "submit") {
 		header("Location:login.php");
 		
-	}		
+	} else {		
 		// Determine if a Name was entered
 		
 			$valid_form = true;
