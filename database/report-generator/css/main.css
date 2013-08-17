@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+@media print {
+   thead {display: table-header-group;}
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+h1 {
+
+	color: #006699;
+}
+#wrapper {
+	width: 100%;
+}
+
+#content {
+	width: 750px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+h3 {
+	font-style: italic;
+	color: #888888;
+	margin-bottom: 0px;
+}
+
+table#dataTbl caption {
+	color: #981200;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+table#dataTbl {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border-collapse: collapse;
+
+}
+table#dataTbl tr th {
+	padding: 10px 5px;
+	background-color: #006699;
+	border: 1px solid #2985CB;
+	border-bottom: 4px solid #ddeeff;
+	color: #fff;
+	font-size: 95%;
+}
+table#dataTbl tr td {
+	padding: 5px 15px;
+	border: 1px solid #ddeeff;
+	font-size: 80%;
+	color: #444;
+}
+
+table#dataTbl tr td.sumColumn {
+	
+	color: #48a;
+}
+
+table#dataTbl tr th.summary-header {
+	background-color: #006699;
+	border: none;
+	border-top: 2px solid #006699;
+	color: #ddeeff;
+	text-align: right;
+	font-weight: normal;
+}
+
+table#dataTbl tr td.summary-results {
+	background-color: #eee;
+	color: #006699;
+	border: none;
+	border-top: 2px solid #006699;
+	font-size: 95%;
+	text-align: right;
+	width: 25%;
+}
+
+div.num-rows {
+	
+	color: #981200;
+	font-size: 85%;
+}
+
+#creation_date {
+	color: #888;
+	text-align: center;
+	font-size: 12px;
+}
+.odd-row {
+	background-color: #f8f8f8;
+}
+
+.hover-row {
+	background-color: #ddeeff;
+	font-weight: bold;
+	
+}
+
+.clear {
+clear: both;
+}

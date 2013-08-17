@@ -943,7 +943,7 @@ function remove_position($pos, $tableName, $filter="") {
 
 /**
  * Sanitize GET and POST fields before displaying it on screen
- * @param string $text Input string from the database
+ * @param string $text Input string from form
  * @return string 
  */
 function sanitize($text) {

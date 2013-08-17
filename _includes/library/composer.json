@@ -1,0 +1,8 @@
+{
+    "name": "propel/propel1",
+    "description": "Propel Object-Relational Mapping (ORM) for PHP5.",
+    "minimum-stability": "stable",
+    "require": {
+
+    }
+}
